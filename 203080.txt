@@ -1,0 +1,15 @@
+2. Наместо main во текстуалното поле се става master, се клика update за да следните репозиториуми имаат master branch.
+3. Се креира во Repositories со кликање на New и потоа Create repository.
+4. Со mkdir SI_2023_lab1_203080 го правиме директориумот и влегуваме во него со cd SI_2023_lab1_203080.
+5. За да се поврземе со оддалечениот репозиториум правиме git init.
+6. Создаваме file со echo Aleksandra Dimitrieska 203080 > README.md, потоа со git add README.md го ставаме file-от од untracked во staged за да може да се комитува. Правиме git commit -m "Initial commit" за да се направи комитот.
+7. По создавање на file-oт SILab1.java со git add SILab1.java го ставаме во фаза staged oд untracked за да се комитува со git commit -m "Add java class".
+8. Синхронизација правиме:
+git remote add origin https://github.com/alekksandradimitrieska/SI_2023_lab1_203080.git
+git branch -M master
+git push -u origin master
+
+27. Со git log ги прикажува досегашните логови. Ги додаваме во logs.txt и 203080.txt се додава заедно со неа. Со git add --all ги правиме staged. И правиме комит git commit -m "Final commit".
+28. Со git push origin --all се прави синхронизацијата на сите гранки.
+
+

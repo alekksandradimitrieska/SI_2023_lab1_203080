@@ -1,0 +1,11 @@
+commit cf5fdc060abe088d1bfbf3536893403bb7f2e0a5 (HEAD -> master, origin/master)
+Author: Aleksandra Dimitrieska <caci.dimitrieska@gmail.com>
+Date:   Sun Apr 9 17:43:36 2023 +0200
+
+    Add java class
+
+commit bb12823f69817453aef44b783dd22aea8396dd06
+Author: Aleksandra Dimitrieska <caci.dimitrieska@gmail.com>
+Date:   Sun Apr 9 17:23:13 2023 +0200
+
+    Initial commit
